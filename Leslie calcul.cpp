@@ -1,5 +1,5 @@
 // Leslie calcul.cpp : Ce fichier contient la fonction 'main'. L'exécution du programme commence et se termine à cet endroit.
-//
+// ::Florent BANGALA::
 
 #include <iostream>
 #include"Caculator.h" 
@@ -19,7 +19,7 @@ int main()
   
     Caculator c; 
     while (true)
-    {
+ <    {
         cin >> x >> oper >> y;
         if (oper == '/' && y == 0)
         {
